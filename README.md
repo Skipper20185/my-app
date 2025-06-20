@@ -1,75 +1,44 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Тестовое задание — регистрация и вход на React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Описание
 
-## Available Scripts
+Приложение реализует формы регистрации и входа с валидацией на клиенте.
 
-In the project directory, you can run:
+- Реализовано с помощью **React**.
+- Все поля проходят проверку на корректность.
+- Кнопка отправки неактивна до заполнения всех обязательных полей.
+- Уведомление об успехе через `alert`.
 
-### `npm start`
+## 🚀 Как запустить
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Клонируйте проект:
+   ```bash
+   git clone https://github.com/Skipper20185/my-app.git
+   cd my-app
+   Установите зависимости:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install
 
-### `npm test`
+Запустите проект:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm start
 
-### `npm run build`
+Откройте в браузере: http://localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📂 Структура проекта
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+my-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Login.jsx
+│   │   └── Register.jsx
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles.css
+└── README.md
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✍️ Автор
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# my-app
-React test task for Fortech
->>>>>>> f4b5e2a629da2456e230192637fb2b1b4ad896e3
+Денис НазаровEmail: denis@example.comGitHub: https://github.com/Skipper20185Telegram: https://t.me/yourusername
