@@ -15,18 +15,19 @@
    ```bash
    git clone https://github.com/Skipper20185/my-app.git
    cd my-app
-   Установите зависимости:
 
-npm install
+2. Установите зависимости:
+   ```bash
+   npm install
 
-Запустите проект:
-
-npm start
+3. Запустите проект:
+   ```bash
+   npm start
 
 Откройте в браузере: http://localhost:3000
 
 📂 Структура проекта
-
+```psql
 my-app/
 ├── public/
 │   └── index.html
@@ -38,7 +39,11 @@ my-app/
 │   ├── index.js
 │   └── styles.css
 └── README.md
+```
 
-✍️ Автор
+✍️ **Автор**  
+Денис Назаров
 
-Денис НазаровEmail: denis@example.comGitHub: https://github.com/Skipper20185Telegram: https://t.me/yourusername
+Email: skipper20185@icloud.com  
+GitHub: https://github.com/Skipper20185   
+Telegram: https://t.me/skipper20185 
